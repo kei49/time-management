@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start:notification": "pm2 start notification.js"
+  },
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "node-cron": "^3.0.0",
+    "pm2": "^5.1.2"
+  }
+}
